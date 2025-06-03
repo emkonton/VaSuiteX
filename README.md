@@ -47,3 +47,10 @@ indirme
       ruby VaSuite.rb
 
 Windowsa öncelik veremiyoruz windows kısmı geride kaldıysa özür dilerim.
+
+
+Yapılan hiçbirşeyden sorumlu değilimdir ben bunu similasyon vb. yerlerde gerçek sahaya açık olması için tasarlamadım. sadece eğitici ve hobim.
+
+Yapılan herşeyden kullanıcı kendi sorumludur.
+
+**The user is responsible for everything done.**
