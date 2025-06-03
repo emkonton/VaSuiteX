@@ -1,0 +1,16 @@
+[
+  { "name": "Instagram", "url": "https://www.instagram.com/%s" },
+  { "name": "x", "url": "https://x.com/%s" },
+  { "name": "GitHub", "url": "https://github.com/%s" },
+  { "name": "Tiktok Tr", "url": "https://www.tiktok.com/tr-TR/@%s" },
+  { "name": "Tiktok", "url": "https://www.tiktok.com/@%s" },
+  { "name": "YouTube", "url": "https://www.youtube.com/@%s" },
+  { "name": "FaceBook", "url": "https://www.facebook.com/%s" },
+  { "name": "Pinterest", "url": "https://tr.pinterest.com/%s" },
+  { "name": "Twich", "url": "https://www.twitch.tv/%s" },
+  { "name": "Kick", "url": "https://kick.com/%s" },
+  { "name": "Name", "url": "Link" }
+]
+
+
+

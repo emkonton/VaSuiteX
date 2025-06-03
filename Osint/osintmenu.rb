@@ -2,6 +2,8 @@ require 'colorize'
 require 'fileutils'
 require 'rbconfig'
 
+
+
 # Python yolunu otomatik bul
 def find_python
   host_os = RbConfig::CONFIG['host_os']
@@ -40,8 +42,8 @@ def osint_menu
   loop do
     puts "\n--- OSINT Menü ---".green
     puts "1. IP Taraması"
-    puts "2. Beklemede".red
-    puts "3. Beklemede".red
+    puts "2. UsernameScan"
+    puts "3. Beklemede"
     puts "4. Geri Dön"
 
     print "Seçim yapınız (1-4): "
@@ -57,8 +59,10 @@ def osint_menu
         puts "Python scripti bulunamadı: #{script_path}".red
       end
     when 2
-      puts "Beklemede".red
-      # kod gelecek
+      puts "UsernameScan".red
+
+      require_relative 'siteusername'
+
     when 3
       puts "Beklemede".red
       # kod gelecek
