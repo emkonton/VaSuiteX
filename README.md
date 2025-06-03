@@ -36,3 +36,5 @@ indirme
 Çalıştırma
 
       ruby VaSuite.rb
+
+Windowsa öncelik veremiyoruz windows kısmı geride kaldıysa özür dilerim.
