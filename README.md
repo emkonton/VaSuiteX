@@ -22,7 +22,16 @@
 - **Python 3** (>= 3.8)
 - `colorize` Ruby gem'i:
   ```bash
-  gem install colorize
+  gem install
+  colorize
+  net/http
+  json
+  nokogiri
+  open-uri
+  
+  
+  
+  
 
 
 indirme 
