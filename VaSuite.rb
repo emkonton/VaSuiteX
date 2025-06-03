@@ -3,6 +3,7 @@ require_relative 'Osint/osintmenu'
 require 'colorize'
 
 def menu
+  system("clear")
   puts "1. MAC Changer".green
   puts "2. Osint".green
   puts "3. Çıkış".yellow
