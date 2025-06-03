@@ -1,5 +1,5 @@
 require_relative 'macchanger/mc'
-require_relative 'osint/osintmenu'
+require_relative 'Osint/osintmenu'
 require 'colorize'
 
 def menu
