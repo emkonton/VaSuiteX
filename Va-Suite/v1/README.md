@@ -1,2 +1,0 @@
-# VaSuiteX
-VatanAğı Projesi
