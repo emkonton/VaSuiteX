@@ -1,5 +1,6 @@
 require_relative 'macchanger/mc'
 require_relative 'Osint/osintmenu'
+require_relative 'Attack/attackmenu.rb'
 require 'colorize'
 
 def current_theme
@@ -34,8 +35,9 @@ def menu
   system("clear")
   puts apply_theme("1. MAC Changer", 1)
   puts apply_theme("2. Osint", 2)
-  puts apply_theme("3. Çıkış", 3)
-  puts apply_theme("4. Tema Değiştir", 4)
+  puts apply_theme("3. Saldırı Menusu", 3)
+  puts apply_theme("4. Tema değiştir", 3)
+  puts apply_theme("5. Çıkış", 4)
   file_path = File.join(__dir__, 'version.txt')
   puts File.read(file_path).green
 end
@@ -80,7 +82,12 @@ def run
       run_macchanger
     when 2
       osint_menu
+
     when 3
+
+      attackmenu
+
+    when 5
       puts "Çıkılıyor..."
       break
     when 4

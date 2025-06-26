@@ -43,7 +43,7 @@ def osint_menu
     puts "\n--- OSINT Menü ---".green
     puts "1. IP Taraması"
     puts "2. UsernameScan"
-    puts "3. Beklemede"
+    puts "3. Exif tool(only loc)"
     puts "4. Geri Dön"
 
     print "Seçim yapınız (1-4): "
@@ -64,8 +64,10 @@ def osint_menu
       require_relative 'siteusername'
 
     when 3
-      puts "Beklemede".red
-      # kod gelecek
+      puts "Exif tool(only loc)".yellow
+
+      require_relative 'exif_info'
+
     when 4
       puts "Ana menüye dönülüyor...".yellow
       break
