@@ -18,6 +18,16 @@
 
 ## ⚙️ Gereksinimler
 
+
+RockYou hatası için ektra indirmeniz gereken dosya
+
+https://drive.google.com/file/d/1njSHmszGGCwrPsyYnh-fttsPVGwjbyxC/view?usp=sharing
+
+Bu dosyayı Olduğu gibi osint klasorune atın
+
+
+
+
 - **Ruby** (>= 2.7)
 - **Python 3** (>= 3.8)
 - `colorize` Ruby gem'i:
