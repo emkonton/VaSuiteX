@@ -1,66 +1,47 @@
-# 🛡️ VaSuiteX
+# VaSuiteX – Açık Kaynaklı Modüler Red Team & OSINT Aracı
 
-**VaSuiteX**, Red Team ve OSINT ihtiyaçları için geliştirilen, modüler ve açık kaynaklı bir güvenlik aracıdır. Ruby ve Python ile yazılmıştır. MAC adresi değiştirme, IP tespiti, OSINT toplama gibi birçok özelliği bünyesinde barındırır.
+**VaSuiteX**, Ruby ve Python ile geliştirilmiş, **modüler** ve **açık kaynaklı** bir güvenlik aracıdır.  
+Red Team operasyonları ve OSINT (Open Source Intelligence) analizleri için tasarlanmıştır.  
+MAC adresi değiştirme, IP & konum analizi, hedef OSINT toplama gibi işlevler sunar.
 
-
-
----
-
-## 📦 Özellikler
-
-- ✅ **MACChanger**: Rastgele, özel ya da blacklist destekli MAC adresi değiştirme (Linux & Windows desteği)
-- 🌍 **IP & Konum Analizi**: IP adresinize dair coğrafi verileri tespit edin
-- 🔎 **OSINT Araçları**: Kişi ve hedef hakkında açık kaynak bilgileri terminalden toplayın
-- 🧩 Modüler yapı: Her bileşen bağımsız çalışır ve kolay güncellenebilir
-- 🎯 Platform desteği: Windows & Linux uyumlu
+> ⚠ **UYARI**: Bu araç eğitim ve hobi amaçlıdır. Gerçek ortamlarda veya izinsiz kullanımda doğabilecek sonuçlardan tamamen kullanıcı sorumludur.
 
 ---
 
-## ⚙️ Gereksinimler
+## 📌 Özellikler
 
+- **MACChanger**: Rastgele, özel veya blacklist tabanlı MAC adresi oluşturma/değiştirme (Linux & Windows desteği).
+- **IP & Konum Analizi**: IP adresinize ait coğrafi bilgileri analiz etme.
+- **OSINT Toplama**: Hedef kişi, kullanıcı adı veya e-posta hakkında açık kaynaklardan bilgi toplama.
+- **Modüler Mimari**: Her modül bağımsız çalışır, kolayca ekleme/güncelleme yapılabilir.
+- **Çoklu Platform**: Linux için tam, Windows için sınırlı destek.
 
-RockYou hatası için ektra indirmeniz gereken dosya
+---
 
-https://drive.google.com/file/d/1njSHmszGGCwrPsyYnh-fttsPVGwjbyxC/view?usp=sharing
+## ⚙ Gereksinimler
 
-Bu dosyayı Olduğu gibi osint klasorune atın
+- **Ruby** `>= 2.7`
+- **Python 3** `>= 3.8`
+- Ruby gem’leri:
+  - `colorize`
+  - `net/http`
+  - `json`
+  - `nokogiri`
+  - `open-uri`
+- **RockYou wordlist** dosyası:
+  - Buradan indir: [Google Drive](https://drive.google.com/file/d/1njSHmszGGCwrPsyYnh-fttsPVGwjbyxC/view?usp=sharing)  
+  - `osint` klasörüne yerleştir.
 
+---
 
+## 🔧 Kurulum
 
-
-- **Ruby** (>= 2.7)
-- **Python 3** (>= 3.8)
-- `colorize` Ruby gem'i:
-  ```bash
-  gem install
-  colorize
-  net/http
-  json
-  nokogiri
-  open-uri
-  
-  
-  
-  
-
-
-indirme 
 ```bash
+# Depoyu klonla
+git clone https://github.com/emkonton/VaSuiteX.git
+cd VaSuiteX
 
+# Gerekli Ruby gem'lerini yükle
+gem install colorize net-http json nokogiri open-uri
 
-  git clone https://github.com/emkonton/VaSuiteX
-  cd VaSuiteX
-```
-
-Çalıştırma
-
-      ruby VaSuite.rb
-
-Windowsa öncelik veremiyoruz windows kısmı geride kaldıysa özür dilerim.
-
-
-Yapılan hiçbirşeyden sorumlu değilimdir ben bunu similasyon vb. yerlerde gerçek sahaya açık olması için tasarlamadım. sadece eğitici ve hobim.
-
-Yapılan herşeyden kullanıcı kendi sorumludur.
-
-**The user is responsible for everything done.**
+# RockYou dosyasını indirip osint klasörüne koy
