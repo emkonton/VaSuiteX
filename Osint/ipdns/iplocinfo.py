@@ -2,7 +2,7 @@ import requests
 
 def get_ip_info(ip_address):
     # ipinfo.io API URL'si ve anahtar
-    token = "b3a1fbca8abb3e"
+    token = ""  #Token
     url = f"http://ipinfo.io/{ip_address}/json?token={token}"
 
     try:
