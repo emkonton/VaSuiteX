@@ -20,6 +20,10 @@ MAC adresi değiştirme, IP & konum analizi, hedef OSINT toplama gibi işlevler 
 
 ## ⚙ Gereksinimler
 
+
+
+Osint/ipdns/iplocinfo.py add token !!!
+
 - **Ruby** `>= 2.7`
 - **Python 3** `>= 3.8`
 - Ruby gem’leri:
