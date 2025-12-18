@@ -1,0 +1,7 @@
+[
+  { "name": "MD5", "length": 32, "regex": "^[a-f0-9]{32}$" },
+  { "name": "SHA1", "length": 40, "regex": "^[a-f0-9]{40}$" },
+  { "name": "SHA256", "length": 64, "regex": "^[a-f0-9]{64}$" },
+  { "name": "SHA512", "length": 128, "regex": "^[a-f0-9]{128}$" },
+  { "name": "NTLM", "length": 32, "regex": "^[A-F0-9]{32}$" }
+]
