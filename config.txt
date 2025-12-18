@@ -1,5 +1,5 @@
-<<<<<<< HEAD
+
 theme=retro
 =======
 theme=matrix
->>>>>>> 34fd367aa8a5462e8778bd7d4dec62dbeaa81bf8
+
