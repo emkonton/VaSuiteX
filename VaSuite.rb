@@ -32,12 +32,8 @@ def apply_theme(text, option_number)
 end
 
 def menu
-<<<<<<< HEAD
   
   clear_screen
-=======
-  system("clear")
->>>>>>> 34fd367aa8a5462e8778bd7d4dec62dbeaa81bf8
   puts apply_theme("1. MAC Changer", 1)
   puts apply_theme("2. Osint", 2)
   puts apply_theme("3. Saldırı Menusu", 3)
@@ -47,20 +43,16 @@ def menu
   puts File.read(file_path).green
 end
 
-def secim
-  print "Seçim yapınız (1-4): "
-  gets.chomp.to_i
-end
-
-<<<<<<< HEAD
 def clear_screen
   system(Gem.win_platform? ? "cls" : "clear")
 end
 
 
+def secim
+  print "Seçim yapınız (1-4): "
+  gets.chomp.to_i
+end
 
-=======
->>>>>>> 34fd367aa8a5462e8778bd7d4dec62dbeaa81bf8
 def theme_menu
   puts "\nTema Seçin:".light_blue
   puts "1. Matrix (varsayılan)"
