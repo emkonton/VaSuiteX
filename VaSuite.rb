@@ -43,10 +43,6 @@ def menu
   puts File.read(file_path).green
 end
 
-def clear_screen
-  system(Gem.win_platform? ? "cls" : "clear")
-end
-
 
 def secim
   print "Seçim yapınız (1-4): "
