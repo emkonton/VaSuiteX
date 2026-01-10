@@ -1,6 +1,7 @@
 require_relative 'macchanger/mc'
 require_relative 'Osint/osintmenu'
 require_relative 'Attack/attackmenu.rb'
+require_relative 'Latest/clear_screen'
 require 'colorize'
 
 def current_theme
@@ -34,6 +35,7 @@ end
 def menu
   
   clear_screen
+  #system("clear")
   puts apply_theme("1. MAC Changer", 1)
   puts apply_theme("2. Osint", 2)
   puts apply_theme("3. Saldırı Menusu", 3)
