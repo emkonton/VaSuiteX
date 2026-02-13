@@ -43,7 +43,7 @@ end
 def crack_hash(input_hash, hash_type, wordlist_path)
   puts "\n🔓 Brute-force başlıyor... (#{hash_type})"
 
-  # Burada encoding'i belirtiyoruz, bozuk karakterler varsa atlıyoruz
+  # Encode belirtiyoruz ve şey unnutum. Heh bozuklukları düzeltiyoruz arada yorum satırı atmak lazım
   File.foreach(wordlist_path, encoding: "windows-1254:utf-8", invalid: :replace, undef: :replace, replace: '') .with_index do |line, i|
     word = line.strip
     hashed = case hash_type
